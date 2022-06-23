@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(comms)
 
-find_package(catkin REQUIRED 
+find_package(catkin REQUIRED
 	roscpp
 	std_msgs
 	sensor_msgs
@@ -13,7 +13,8 @@ add_message_files(
 	FILES
 	ObjectPose.msg
 	ObjectsPoses.msg
-	PoseStampedArray.msg
+	ObjectTraj.msg
+	ObjectsTrajs.msg
 )
 
 add_service_files(
@@ -24,6 +25,7 @@ add_service_files(
 	ResetScene.srv
 	SetColours.srv
 	SimPushes.srv
+	SimPushesDogar.srv
 	AddRobot.srv
 	CheckScene.srv
 	ResetArm.srv
