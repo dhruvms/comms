@@ -8,3 +8,4 @@ bool res
 int64 idx
 int64 successes
 ObjectsPoses objects
+int64[] relevant_ids
