@@ -1,0 +1,8 @@
+trajectory_msgs/JointTrajectory traj
+int64 oid
+int64 pick_at
+int64 place_at
+ObjectsPoses objects
+---
+bool res
+ObjectsPoses objects

@@ -24,6 +24,7 @@ add_service_files(
 	ExecTraj.srv
 	ResetScene.srv
 	SetColours.srv
+	SimPickPlace.srv
 	SimPushes.srv
 	SimPushesDogar.srv
 	AddRobot.srv
