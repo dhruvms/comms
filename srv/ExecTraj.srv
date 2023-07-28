@@ -1,7 +1,8 @@
 trajectory_msgs/JointTrajectory traj
-ObjectsPoses objects
-int64 grasp_at
 int64 ooi
+int64 pick_at
+int64 place_at
+ObjectsPoses objects
 ---
 bool violation
 int64 cause
