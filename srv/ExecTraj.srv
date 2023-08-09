@@ -5,6 +5,5 @@ int64 place_at
 ObjectsPoses objects
 ---
 bool violation
-int64 cause
 int64[] interactions
 ObjectsPoses objects
